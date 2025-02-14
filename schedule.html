@@ -7,7 +7,8 @@
     <style>
 	
 	table {
-    width: 100%; /* Adjust width if needed */
+    width: 60%; /* Adjust width if needed */
+	max-width: 600px;
     border-collapse: collapse;
     margin-top: 20px;
     background: #ffffff;
@@ -16,11 +17,12 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     margin-left: auto;
     margin-right: auto;
-    display: block; /* Ensures centering */
+    display: table; /* Ensures centering */
 }
 th, td {
-    padding: 12px;
+    padding: 8px;
     border: 1px solid #ddd;
+	font-size: 14px;
     text-align: center;
     white-space: nowrap; /* Prevents time from wrapping to a new row */
 }
@@ -35,11 +37,17 @@ tr:nth-child(even) {
     background: #f2f2f2;
 }
 .break {
-    background-color: #ffcccb !important; /* Light red background */
+    background-color: #b4cbd1 !important; /* Light red background */
     font-weight: bold; /* Make text bold */
     text-align: center; /* Center the text */
     color: #333; /* Dark text for contrast */
 }
+.keynote {
+        background-color: #c5fb04  !important;
+    }
+    .invited {
+        background-color: #fb7404  !important;
+    }
 tr:hover {
     background: #e6f7ff;
 }
@@ -157,18 +165,18 @@ tr:hover {
             <th>Title</th>
         </tr>
         <tr><td>8:30 AM - 8:35 AM</td><td>Opening Remarks</td><td></td><td></td></tr>
-        <tr><td>8:35 AM - 9:10 AM</td><td>Keynote Speaker</td><td>Prof. Nitesh Chawla</td><td></td></tr>
-        <tr><td>9:10 AM - 9:30 AM</td><td>Invited Speaker</td><td>Dr. Abhijnan Chakraborty</td><td>Fairness of Influence Maximization in Social Networks</td></tr>
-        <tr><td>9:30 AM - 09:45 AM</td><td>Contributed</td><td>Jian Kang</td><td>Degree Bias in Graph Neural Networks: Theory and Algorithms</td></tr>
-		<tr><td>9:45 AM - 10:00 AM</td><td>Contributed</td><td>Giulia De Pasquale</td><td>Fairness in Social Influence Maximization via Optimal Transport</td></tr>
-        <tr><td>10:05 AM - 10:15 AM</td><td>Contributed</td><td>Glykeria Toulina</td><td>A fair label propagation community detection algorithm</td></tr>
-		<tr><td>10:15 AM - 10:30 AM</td><td>Contributed</td><td>Sucheta Soundarajan</td><td>Stratification in Social Networks</td></tr>
+        <tr class="keynote"><td>8:35 AM - 9:10 AM</td><td>Keynote Speaker</td><td>Prof.Dr. Nitesh Chawla</td><td></td></tr>
+        <tr class="invited"><td>9:10 AM - 9:30 AM</td><td>Invited Speaker</td><td>Dr. Abhijnan Chakraborty</td><td>Fairness of Influence Maximization in Social Networks</td></tr>
+        <tr><td>9:30 AM - 09:45 AM</td><td>Contributed Talk</td><td>Dr. Jian Kang</td><td>Degree Bias in Graph Neural Networks: Theory and Algorithms</td></tr>
+		<tr><td>9:45 AM - 10:00 AM</td><td>Contributed Talk</td><td>Dr. Giulia De Pasquale</td><td>Fairness in Social Influence Maximization via Optimal Transport</td></tr>
+        <tr><td>10:05 AM - 10:15 AM</td><td>Contributed Talk</td><td>Glykeria Toulina</td><td>A fair label propagation community detection algorithm</td></tr>
+		<tr><td>10:15 AM - 10:30 AM</td><td>Contributed Talk</td><td>Dr. Sucheta Soundarajan</td><td>Stratification in Social Networks</td></tr>
         <tr class="break"><td>10:30 AM - 11:00 AM</td><td colspan="3">Break</td></tr>
-        <tr><td>11:00 AM - 11:35 AM</td><td>Keynote Speaker</td><td>Dr. Kristina Lerman</td><td></td></tr>
-		<tr><td>11:35 AM - 11:55 AM</td><td>Invited Speaker</td><td>Lisette Espín-Noboa</td><td>Responsible Decision-Making: From Network Inequality to Network Fairness</td></tr>
-        <tr><td>11:55 AM - 12:05 PM</td><td>Lightening</td><td>Shwetha Koushik, Manchinahalli SRIKANTA</td><td>Integrating Algorithmic Ethics into Computer Science Education: Emphasizing Ethical Context in Network Science</td></tr>
-        <tr><td>12:05 PM - 12:15 PM</td><td>Lightening</td><td>Stefania Ionescu</td><td>Fairness for Content Creators</td></tr>
-		<tr><td>12:15 PM - 12:25 PM</td><td>Lightening</td><td>Fabrizio Corriera</td><td>Fairness in Community Detection</td></tr>
+        <tr class="keynote"><td>11:00 AM - 11:35 AM</td><td>Keynote Speaker</td><td>Dr. Kristina Lerman</td><td></td></tr>
+		<tr class="invited"><td>11:35 AM - 11:55 AM</td><td>Invited Speaker</td><td>Dr. Lisette Espín-Noboa</td><td>Responsible Decision-Making: From Network Inequality to Network Fairness</td></tr>
+        <tr><td>11:55 AM - 12:05 PM</td><td>Lightening Talk</td><td>Shwetha Koushik Manchinahalli SRIKANTA</td><td>Integrating Algorithmic Ethics into Computer Science Education: Emphasizing Ethical Context in Network Science</td></tr>
+        <tr><td>12:05 PM - 12:15 PM</td><td>Lightening Talk</td><td>Dr. Stefania Ionescu</td><td>Fairness for Content Creators</td></tr>
+		<tr><td>12:15 PM - 12:25 PM</td><td>Lightening Talk</td><td>Fabrizio Corriera</td><td>Fairness in Community Detection</td></tr>
         <tr><td>12:25 PM - 12:30 PM</td><td>Closing Remarks</td><td></td><td></td></tr>
     </table>
 </section>
