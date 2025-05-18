@@ -1,142 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>speakers</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            color: #333;
-        }
-        header {
-            background: url('image1.png') no-repeat center center;
-            background-size: cover;
-            padding: 20px;
-            text-align: center;
-            position: relative;
-        }
-        header::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            backdrop-filter: blur(1px);
-        }
-        header h1 {
-            position: relative;
-            z-index: 1;
-            color: white;
-			font-size: 48px;
-            font-family: 'Georgia', serif;
-        }
-		header h2 {
-            position: relative;
-            z-index: 1;
-            color: white;
-			font-size: 28px;
-            font-family: 'Georgia', serif;
-        }
-		header p {
-            position: relative;
-            z-index: 1;
-            color: white;
-			font-size: 30px;
-            font-family: 'Georgia';
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #333;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-			font-size: 20px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background: #575757;
-        }
-        section {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-			text-align: justify;
-        }
-		section h2 {
-            font-size: 32px;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 0;
-            border: none;
-            background: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .button:hover {
-            background: #0056b3;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #f4f4f4;
-        }
-    </style>
-</head>
-<body>
-    <header id="top">
-        <h1>Algorithmic Fairness in Network Science</h1>
-        <p>A NetSci 2025 Satellite</p>
-	<p>3 June 2025, 08:30 AM - 12:30 PM</p>
-    </header>
+<section id="overview">
+    <h2>Speakers</h2>
+    <section id="organizers">
 
-    <nav>
-	    <a href="index.html">Home</a>
-        <a href="call_for_paper">Call for Papers</a>
-        <a href="accepted_papers.html">Venue</a>
-        <a href="#top">Speakers</a>
-        <a href="schedule.html">Schedule</a>
-		<a href="organizing_committee.html">Organizing Committee</a>
-		
-    </nav>
-
-    <section id="overview">
-        <h2>Speakers</h2>
-        <section id="organizers">
-        
-        <div class="team-container">
-            <!-- Speaker 1 -->
-            <div class="team-member">
-                <img src="akrati.JPG" alt="Organizer 1">
-                <div class="team-info">
-                    <h3><a href="https://niteshchawla.nd.edu/bio/" 
-       target="_blank" 
-       rel="noopener noreferrer">
-       Prof. Dr. Nitesh Chawla
-    </a></h3>
-                    <p>Nitesh V. Chawla is the Frank M. Freimann Professor of Computer Science and Engineering at the University of Notre Dame. He is the Founding Director of the Lucy Family Institute for Data and Society.  He also holds concurrent faculty appointments in the Department of Applied and Computational Mathematics and Statistics in the College of Science and the Department of Information, Technology, Analytics and Operations in the College of Business.</p>
-              
-                </div>
+    <div class="team-container">
+        <!-- Speaker 1 -->
+        <div class="team-member">
+            <img src="akrati.JPG" alt="Organizer 1">
+            <div class="team-info">
+                <h3><a href="https://niteshchawla.nd.edu/bio/" 
+   target="_blank" 
+   rel="noopener noreferrer">
+   Prof. Dr. Nitesh Chawla
+</a></h3>
+                <p>Nitesh V. Chawla is the Frank M. Freimann Professor of Computer Science and Engineering at the University of Notre Dame,
+			where he also serves as the Founding Director of the Lucy Family Institute for Data and Society. He holds joint appointments in
+			the Department of Applied and Computational Mathematics and Statistics and the Department of IT, Analytics, and Operations.
+			A Fellow of AAAS, AAAI, ACM, and IEEE, Chawla is a leading expert in artificial intelligence, data science, and network science.
+			His research bridges foundational methods with interdisciplinary applications aimed at advancing the common good. He has received numerous honors,
+			including the IEEE CIS Outstanding Early Career Award,
+			IBM Faculty Awards, and multiple teaching and best paper awards, reflecting his impact in both research and education.</p>
+		    <p>Title: Toward Responsible AI: Advancing Fairness, Explainability, and Scalable Interpretability </p>
+		    <p>Abstract:The pursuit of Responsible Artificial Intelligence (AI) increasingly hinges on two foundational pillars: ensuring fairness 
+			    and enabling efficient, meaningful explanations. While blackbox models offer superior predictive performance, their opaque decision-making can limit their adoption in domains where accountability, trust, and societal impact are critical. In this presentation, I will present our work that addresses the limitations
+			    of current explainability and fairness approaches by proposing frameworks that emphasize both transparency and scalability, without sacrificing model performance.</p>
             </div>
-        
-    </section>
+        </div>
 
-    
+        <!-- Speaker 2 -->
+        <div class="team-member">
+            <img src="speaker2.jpg" alt="Speaker 2">
+            <div class="team-info">
+                <h3><a href="https://viterbi.usc.edu/directory/faculty/Lerman/Kristina" 
+   target="_blank" 
+   rel="noopener noreferrer">Dr. Kristina Lerman</h3>
+                <p>Kristina Lerman is a Senior Principal Scientist at the University of Southern California Information Sciences Institute
+			and holds a joint appointment as a Research Professor in the  USC Thomas Lord Department of Computer Science. 
+			Trained as a physicist, she now applies network analysis and machine learning to problems in computational social science,
+			including crowdsourcing, social network and social media analysis. Her work on modeling and understanding cognitive biases
+			in social networks has been covered by the Washington Post, Wall Street Journal, and The Atlantic. She is a fellow of the AAAI.</p>
+		    <p> Title: Cumulative Disadvantage: How Feedback Loops Amplify Inequalities in Science </p>
+                <p>Abstract: Recommendation algorithms have become powerful mediators of information access and visibility, shaping how people discover
+			content, form connections, and make decisions. However, their interaction with social biases can create feedback loops that
+			systematically disadvantage certain groups. Through a case study of academic citations, we examine how these mechanisms
+			emerge and compound over time. Analyzing large-scale bibliometric data, we show that women scientists receive fewer citations
+			than their male counterparts, a disparity not explained by minority status alone. Additionally, in some disciplines,
+			recognition becomes increasingly concentrated among authors from prestigious institutions, reinforcing elitism and compounding
+			institutional advantages. These disparities stem from multiple mechanisms, including homophily (favoring similar authors), 
+			preferential attachment (favoring highly cited or active researchers), group size, and field growth dynamics.
+			Academic search engines that rank papers by citation counts risk amplifying these disparities, creating a self-reinforcing
+			cycle where advantaged groups gain increasing visibility while others face growing barriers to recognition. 
+			Our findings underscore the need to consider algorithmic fairness within broader social systems and advocate for ranking approaches
+			that counter, rather than reinforce, systemic biases in scientific evaluation.</p>
+            </div>
+        </div>
 
-    
+       
 
-    <footer>
-        <p>© 2025 NetSci All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
+    </div>
+
+</section>
