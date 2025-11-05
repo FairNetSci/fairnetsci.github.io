@@ -1,2 +1,0 @@
-# SatelliteConference
-NetSci Satellite Conference
