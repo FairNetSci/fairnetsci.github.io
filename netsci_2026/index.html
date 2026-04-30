@@ -178,36 +178,211 @@
 
     <!-- Speakers -->
     <section id="speakers" class="section alt">
-	
-      <div class="container">
-        <h2>Speakers</h2>
-		<p>TBA</p>
-		<!--
-        <div class="grid speakers-grid">
-          <figure class="speaker">
-            <img src="profile.jpg" alt="Speaker 1" />
-            <figcaption>
-              <strong>Dr...</strong><span> University </span>
-            </figcaption>
-          </figure>
+  <div class="container">
+    <h2>Speakers</h2>
 
-          <figure class="speaker">
-            <img src="profile.jpg" alt="Speaker 2" />
-            <figcaption>
-              <strong>Dr...</strong><span>university</span>
-            </figcaption>
-          </figure>
+    <!-- Speaker 1 -->
+    <div class="speaker-card">
+      <img src="https://niteshchawla.nd.edu/assets/393078/600x600/nitesh_chawla.jpg" class="speaker-photo" />
 
-          <figure class="speaker">
-            <img src="profile.jpg" alt="Speaker 3" />
-            <figcaption>
-              <strong>Dr...</strong><span>university </span>
-            </figcaption>
-          </figure>
-        </div>-->
+      <div class="speaker-info">
+        <h3>Dr. Nitesh Chawla</h3>
+        
+
+        <p class="speaker-talk">
+          <strong>Title:</strong> Rootless Intelligence: Do LLMs Actually Believe Anything?
+        </p>
+		<p class="speaker-abstract">
+      <strong>Abstract:</strong> The rise of Large Language Models (LLMs) has reignited the debate 
+	  over whether these systems exhibit human-level cognition, yet little attention has been paid 
+	  to a structural pillar of human intelligence: core beliefs. In humans, these foundational 
+	  truths provide a stable anchor for our worldview and typically resist debunking, as abandoning
+	  them would require a total shift in our perception of reality. In this keynote, I present our 
+	  research into whether LLMs hold anything akin to these commitments by utilizing a probing framework
+	  called Adversarial Dialogue Trees (ADTs). Our results indicate that all current models lack the 
+	  stable cognitive foundation necessary for true human-level intelligence
+    </p>
+
+        <p class="speaker-bio">
+         <strong>Bio:</strong> Dr. Nitesh Chawla is the Frank M. Freimann Professor of Computer Science 
+		 and Engineering and the Lucy Family Director for Data & AI Academic Strategy, leading the Data,
+		 AI, and Computing Initiative at the University of Notre Dame. His research is focused on artificial 
+		 intelligence, data science, and network science, and is motivated by the question of how technology 
+		 can advance the common good through convergence. He is a Fellow of: the Institute of Electrical and 
+		 Electronics Engineers (IEEE); the Association of Computing Machinery (ACM); the American Association
+		 for the Advancement of Science (AAAS); and the Association for the Advancement of Artificial Intelligence (AAAI).
+		 He is the recipient of multiple awards, including the National Academy of Engineers New Faculty Fellowship, 
+		 IEEE CIS Outstanding Early Career Award, Rodney F. Ganey Community Impact Award, IBM Big Data & Analytics 
+		 Faculty Award, IBM Watson Faculty Award, and the 1st Source Bank Technology Commercialization Award. 
+		 He is a serial entrepreneur having (co-)founded multiple start-ups
+
+        </p>
       </div>
-	  
-    </section>
+    </div>
+
+    <!-- Speaker 2 -->
+    <div class="speaker-card">
+      <img src="https://www.sapiezynski.com/files/face.jpg" class="speaker-photo" />
+
+      <div class="speaker-info">
+        <h3>Dr. Piotr Sapieżyński</h3>
+        
+
+        <p class="speaker-talk">
+          <strong>Title:</strong> Making platforms accountable, one audit at a time
+        </p>
+		<p class="speaker-abstract">
+      <strong>Abstract:</strong> Over the last decade, online platforms such as Facebook, TikTok, 
+	  and X have dramatically increased their reliance on algorithmically curated feeds. Each user
+	  is now exposed to a highly personalized selection and ordering of content, often coming from
+	  creators and sources that they did not actively choose to view.  Complex, interacting AI-based
+	  systems make these selection decisions in ways that optimize that platforms’ goals—such as maximizing
+	  user engagement or time spent on platform—but do not necessarily align with users’ autonomy and welfare.
+	  At the same time, regulators are poorly equipped to study these platforms, and the companies that operate
+	  them are often dis-incentivized from investigating the societal implications of their products due to potential 
+	  legal liability.As a result, to fully understand how these platforms are impacting end users, communities, 
+	  and society as a whole, it is necessary to have independent, third party audits. In this talk, I 
+	  provide an overview of my work in this space, showing how I have developed and deployed methods 
+	  that grant us insights into the platforms’ inner workings.  I discuss how we can begin to understand 
+	  the societal implications of online content recommendation algorithms and how we use this knowledge to 
+	  hold the platforms accountable. I will focus on potentially discriminatory and anti-democratic consequences 
+	  of ad delivery optimization at Facebook/Meta, and explain how the lessons we learned can be applied in the 
+	  context of other online platforms
+
+    </p>
+
+        <p class="speaker-bio">
+         <strong>Bio:</strong> Dr. Piotr Sapiezynski is an Assistant Professor at the Technical University 
+		 of Denmark and an Assistant Research Professor at Northeastern University. His focus is on bringing
+		 transparency to algorithmic products, and accountability to platforms that operate them, such that 
+		 societal harms of Machine Learning and AI can be minimized, and the positive impacts equitably distributed.
+		 His work has appeared in top-tier conferences (incl. FAccT, AIES, CSCW, IMC) and prestigious journals
+		 (incl. Political Research Quarterly and Nature journals: Scientific Reports, Human Behaviour, Scientific Data,
+		 and Climate Change). His work has been covered in the international press, including The Economist, 
+		 Washington Post, WIRED, and Propublica. He has appeared before the House Financial Services Committee 
+		 in the US, and the European Parliament’s Internal Market and Consumer Protection Committee. He has also 
+		 served as an expert for the US Department of Justice in their first case charging an algorithm with 
+		 violations of the Fair Housing Act
+
+        </p>
+      </div>
+    </div>
+
+    <!-- Speaker 3 -->
+    <div class="speaker-card">
+      <img src="https://5harad.com/public/goel-profile.jpg" class="speaker-photo" />
+
+      <div class="speaker-info">
+        <h3>Dr. Sharad Goel</h3>
+        <p class="speaker-talk">
+          <strong>Title:</strong> Label bias, rubric embeddings, and everything but the kitchen sink
+        </p>
+		<p class="speaker-abstract">
+      <strong>Abstract:</strong> In designing statistical decision aids, many scholars promote a "kitchen 
+	  sink" approach, reasoning that more information yields more accurate predictions. We show, however, 
+	  that this rationale often fails when algorithms are trained to predict a proxy of the true outcome,
+	  for instance, past hiring decisions as a proxy for actual job performance. To address this problem,
+	  we introduce "rubric embeddings", which represent the data as a large set of interpretable features
+	  that are directly related to the true label. We show -- both empirically and theoretically -- that 
+	  this approach can mitigate label bias, simultaneously improving both the equity and quality of decisions
+
+    </p>
+
+        <p class="speaker-bio">
+          <strong>Bio:</strong> Dr. Sharad Goel is a Professor of Public Policy at Harvard Kennedy School. He looks at public policy
+		  through the lens of computer science, bringing a computational perspective to a diverse range 
+		  of contemporary social and political issues, including education, the delivery of public benefits,
+		  and the equitable design of algorithms. Sharad is the founder and director of the Harvard Computational
+		  Policy Lab, an interdisciplinary team of researchers and engineers that use technology to solve public 
+		  problems. Prior to joining Harvard, Sharad was on the faculty at Stanford University, with appointments
+		  in management science & engineering, computer science, sociology, and the law school. Sharad holds an 
+		  undergraduate degree in mathematics from the University of Chicago, as well as a master’s degree in 
+		  computer science and a doctorate in applied mathematics from Cornell University
+        </p>
+      </div>
+    </div>
+
+    <!-- Speaker 4 -->
+    <div class="speaker-card">
+      <img src="https://engineering.virginia.edu/sites/default/files/styles/square_xxsml/public/2024-01/Jundong%20Li%20thumbnail_0.webp?itok=YVMFYjHb" class="speaker-photo" />
+
+      <div class="speaker-info">
+        <h3>Dr. Jundong Li</h3>
+        <p class="speaker-talk">
+          <strong>Title:</strong> Algorithmic Fairness of Graph Machine Learning: Optimization, Explanation, and Certification
+        </p>
+		<p class="speaker-abstract">
+      <strong>Abstract:</strong> As graph machine learning (GML) moves from academic benchmarks into consequential decision-making
+	  pipelines — credit scoring, bail decisions, fraud detection, clinical risk assessment — a fundamental tension has come 
+	  into focus: the very message-passing mechanisms that make graph neural networks powerful also propagate and amplify 
+	  the social biases embedded in the underlying network, turning structural inequality into algorithmic discrimination. 
+	  Confronting this challenge demands more than a single technical fix; it requires a principled framework that can 
+	  reduce bias at its source, explain how bias is introduced through graph structure, and guarantee that the fairness 
+	  we achieve holds under adversarial conditions. In this talk, I will present a line of work that advances the 
+	  algorithmic fairness of GML along these three complementary axes. First, on optimization, I will describe a 
+	  model-agnostic approach that debiases the input attributed network itself — measuring and mitigating bias 
+	  in both node attributes and graph structure — so that any downstream GNN inherits improved fairness without
+	  bespoke retraining. Second, on explanation, I will present a post-hoc, instance-level structural explainer 
+	  that identifies the edges most responsible for biased predictions and, separately, those that most support 
+	  fair ones, turning fairness diagnosis into an actionable debugging tool. Third, on certification, I will 
+	  discuss how to provide theoretical guarantees that the fairness of a deployed GNN cannot be corrupted by 
+	  attackers operating within a bounded perturbation budget on nodes or edges, moving the field from empirical
+	  defense toward provable trustworthiness
+
+    </p>
+	<p class="speaker-bio">
+         <strong>Bio:</strong> Dr. Jundong Li is an Associate Professor at the University of Virginia, with joint appointments 
+		 in the Department of Electrical and Computer Engineering and the Department of Computer Science. Since 2022, he has 
+		 also served as a part-time Research Scholar at LinkedIn. His research spans data mining, machine learning, and 
+		 artificial intelligence, with a particular focus on graph machine learning, trustworthy and safe machine learning,
+		 and large language models. He has authored more than 200 papers in leading venues, collectively cited over 20,000 
+		 times. His work has been recognized with four early-career awards — the ICDM Tao Li Award (2025), the SIGKDD Rising 
+		 Star Award (2024), the PAKDD Early Career Research Award (2023), and the NSF CAREER Award (2022) — as well as the
+		 PAKDD Best Paper Award (2024), the SIGKDD Best Research Paper Award (2022), and multiple industry faculty research awards
+
+        </p>
+      </div>
+    </div>
+
+    <!-- Speaker 5 -->
+    <div class="speaker-card">
+      <img src="https://www.colorado.edu/philosophy/sites/default/files/styles/large_image_style/public/people/r6m23376.jpg?itok=DCOv6BaH" class="speaker-photo" />
+
+      <div class="speaker-info">
+        <h3>Kate Barnes</h3>
+        
+
+        <p class="speaker-talk">
+          <strong>Title:</strong> Edge interventions can mitigate demographic and prestige disparities in the Computer Science coauthorship network
+        </p>
+		<strong>Abstract:</strong> Social factors such as demographic traits and institutional prestige structure the creation and 
+		dissemination of ideas in academic publishing. One place these effects can be observed is in how central or peripheral a 
+		researcher is in the coauthorship network. Here we investigate inequities in network centrality in a hand-collected data 
+		set of 5,670 U.S.-based faculty employed in Ph.D.-granting Computer Science departments and their DBLP coauthorship connections.
+		We introduce algorithms for combining name- and perception-based demographic labels by maximizing alignment with self-reported 
+		demographics from a survey of faculty from our census. We find that women and individuals with minoritized race identities are
+		less central in the computer science coauthorship network, implying worse access to and ability to spread information. 
+		Centrality is also highly correlated with prestige, such that faculty in top-ranked departments are at the core and those 
+		in low-ranked departments are in the peripheries of the computer science coauthorship network. We show that these disparities
+		can be mitigated using simulated edge interventions, interpreted as facilitated collaborations. Our intervention increases 
+		the centrality of target individuals, chosen independently of the network structure, by linking them with researchers from 
+		highly ranked institutions. When applied to scholars during their Ph.D., the intervention also improves the predicted rank
+		of their placement institution in the academic job market. This work was guided by an ameliorative approach: uncovering 
+		social inequities in order to address them. By targeting scholars for intervention based on institutional prestige, 
+		we are able to improve their centrality in the coauthorship network that plays a key role in job placement and longer-term 
+		academic success
+
+    </p>
+
+        <p class="speaker-bio">
+         <strong>Bio:</strong>Kate Barnes is a Ph.D. student in computer science at the University of Colorado Boulder. Her research
+		 uses computation methods to examine how social factors influence the creation and dissemination of ideas in academia
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
     <!-- Schedule -->
     <section id="schedule" class="section alt">
@@ -290,6 +465,21 @@
   <div class="container">
     <h2>Volunteers</h2>
     <ul class="volunteer-list">
+
+  <!-- Volunteer 1 -->
+  <li class="volunteer-item">
+    <img
+      src="https://media.licdn.com/dms/image/v2/D5603AQHjOgizodTsHw/profile-displayphoto-crop_800_800/B56Z3NAW1QGoAI-/0/1777260928784?e=1779321600&v=beta&t=DU4nclrJKeCms7O_OvR7lqCBnk2yUzV55yijcfBshTM"
+      alt="Shikha Mallick"
+      class="volunteer-photo"
+    />
+    <div class="volunteer-info">
+      <strong>Shikha Mallick</strong><br />
+      <span>University of Victoria, BC, Canada</span>
+    </div>
+  </li>
+  
+  <!-- Volunteer 2 -->
   <li class="volunteer-item">
     <img
       src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=JRbLhuYAAAAJ&citpid=8"
@@ -301,6 +491,9 @@
       <span>IIT Bhilai, India</span>
     </div>
   </li>
+
+  
+
 </ul>
   </div>
 </section>    

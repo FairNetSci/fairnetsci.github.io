@@ -343,23 +343,37 @@ h2 {
 .speaker-info h3 {
   margin: 0;
   font-size: 1.3rem;
+  color: var(--accent) !important;
 }
 
-.speaker-info h3 a {
-  color: var(--accent);
-  text-decoration: none;
+.speaker-title {
+  font-size: 1rem;
+  color: #000;
+  margin: 4px 0 10px;
 }
 
-.speaker-info h3 a:hover {
-  text-decoration: underline;
-}
-
-.speaker-info p {
-  margin-top: 6px;
+.speaker-talk {
   font-size: 1.05rem;
-  color: var(--muted);
+  margin: 10px 0 8px;
+  font-weight: 500;
+  color: #000;
 }
 
+.speaker-abstract {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin: 8px 0;
+  color: #000;
+  text-align: justify;
+}
+
+.speaker-bio {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-top: 10px;
+  color: #000;
+  text-align: justify;
+}
 /* Mobile layout */
 @media (max-width: 900px) {
   .speaker-card {
